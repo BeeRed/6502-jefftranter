@@ -1,0 +1,5 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+KIM-1/MSBasic/kb9v2.bin
+KIM-1/MSBasic/kb9v2.lbl
+KIM-1/MSBasic/kb9v2.ptp
+msbasic/msbasic/tmp/
