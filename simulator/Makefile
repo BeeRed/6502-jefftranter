@@ -2,7 +2,10 @@
 CXX = g++
 
 # Flags for debug
-CXXFLAGS = -Wall -g
+CXXFLAGS = -Wall
+CXXFLAGS += -std=c++20
+CXXFLAGS += -O3
+CXXFLAGS += -g
 
 #Flags for optimized code
 #CXXFLAGS = -Wall -O
