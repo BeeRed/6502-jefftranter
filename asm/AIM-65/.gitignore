@@ -1,2 +1,9 @@
-.directory
 
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+.directory
+Assembler/aim65assembler.bin
+Assembler/aim65assembler.pdf
+Assembler/aim65assembler.ptp
+Monitor/aim65monitor.bin
+Monitor/aim65monitor.pdf
+Monitor/aim65monitor.ptp
