@@ -1,0 +1,13 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+*.sw[pon]
+*[.-]bak
+*[.-]old
+*[.-]orig
+*[.-]sav
+*[.-]save
+*[.-]temp
+*[.-]tmp
+*~
+util/bintomon/bintomon
+*.map
+*.lst
