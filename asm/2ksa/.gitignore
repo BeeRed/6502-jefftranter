@@ -1,0 +1,4 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+2ksa-apple.bin
+2ksa-kim-0200.bin
+2ksa-kim-2000.bin
