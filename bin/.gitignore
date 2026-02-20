@@ -1,0 +1,4 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+a65
+bintolod
+bintomon
