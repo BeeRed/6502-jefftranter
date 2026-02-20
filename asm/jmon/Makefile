@@ -1,3 +1,6 @@
+BINDIR  ?= $(PWD)/../../bin
+PATH 	:= $(PATH):$(BINDIR)
+
 # Uncomment one of the following lines to set your platform
 #PLATFORM=APPLE1
 #PLATFORM=APPLE2
@@ -22,7 +25,7 @@ jmon.mon: jmon.bin
 
 # OSI version binary
 jmon.lod: jmon.bin
-	~/git/mine/6502/asm/OSI/bintolod -s 0380 -l 0380 jmon.bin >jmon.lod
+	bintolod -s 0380 -l 0380 jmon.bin >jmon.lod
 
 # KIM-1 version binary
 jmon.ptp: jmon.bin
