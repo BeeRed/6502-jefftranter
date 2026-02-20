@@ -1,0 +1,4 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+C1.bin
+C13.bin
+C15.bin
