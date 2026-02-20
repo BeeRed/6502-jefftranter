@@ -1,0 +1,10 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+example.bin
+example.ptp
+example.run
+kimath.bin
+kimath.ptp
+kimath.run
+mathpac.bin
+mathpac.ptp
+mathpac.run
