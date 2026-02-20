@@ -1,0 +1,44 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+Games/Addition/addition.bin
+Games/Asteroid/asteroid.bin
+Games/Bagels/bagels.bin
+Games/Bandit/bandit.bin
+Games/Bitz/bitz.bin
+Games/Black Match/blackmatch1.bin
+Games/Black Match/blackmatch2.bin
+Games/Blackjack/blackjack.bin
+Games/Card Dealer/carddealer.bin
+Games/Chess Clock/chessclock.bin
+Games/Clock/clock.bin
+Games/Code Test/codetest.bin
+Games/Craps/craps.bin
+Games/Duel/duel.bin
+Games/Farmer Brown/farmerbrown.bin
+Games/Hi-Lo/hilo.bin
+Games/Horserace/horserace.bin
+Games/Key Train/keytrain.bin
+Games/Kim Nim/kimnim.bin
+Games/Kim-Tac-Toe/kimtactoe.bin
+Games/Lunar Lander/lunarlander.bin
+Games/Multi-Maze/multimaze.bin
+Games/Music Box/musicbox.bin
+Games/Ping Pong/pingpong.bin
+Games/Quick/quick.bin
+Games/Reverse/reverse.bin
+Games/Teaser/teaser.bin
+Games/Timer/timer.bin
+Games/Wumpus/wumpus.bin
+Potpourri/Random/random.bin
+Utilities/Branch/branch.bin
+Utilities/Browse/browse.bin
+Utilities/Directory/directory.bin
+Utilities/Hypertape/hypertape.bin
+Utilities/Memory Test/memorytest.bin
+Utilities/Mini Dis/minidis.bin
+Utilities/Movit/movit.bin
+Utilities/PLL Set/pllset.bin
+Utilities/Relocate/relocate.bin
+Utilities/Sort/sort.bin
+Utilities/Super-Dupe/superdupe.bin
+Utilities/Verify Tape/verifytape.bin
+Utilities/VU-Tape/vutape.bin
