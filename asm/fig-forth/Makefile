@@ -1,7 +1,10 @@
+BINDIR  ?= $(PWD)/../../bin
+PATH 	:= $(PATH):$(BINDIR)
+
 all: fig6502.lod
 
 fig6502.lod: fig6502.bin
-	~/git/6502/asm/OSI/bintolod -s 0380 -l 0380 fig6502.bin >fig6502.lod
+	bintolod -s 0380 -l 0380 fig6502.bin >fig6502.lod
 
 send:	fig6502.lod
 	ascii-xfr -s fig6502.lod  >/dev/ttyUSB0
