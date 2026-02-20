@@ -1,0 +1,13 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+ehbasic/basic.bin
+ehbasic/basic.mon
+ewoz/ewoz.bin
+ProDOS/mliexample.bin
+sweet16/sweet16.bin
+sweet16/sweet16.mon
+tinybasic/TinyBasic.bin
+wozaci/wozaci.bin
+wozfp/wozfp.bin
+wozmon/wozmon-serial.bin
+wozmon/wozmon.bin
+msbasic/msbasic/tmp/
