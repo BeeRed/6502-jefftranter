@@ -1,0 +1,13 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+chapter10.ptp
+chapter11.ptp
+chapter12.ptp
+chapter13.ptp
+chapter14.ptp
+chapter3.ptp
+chapter4.ptp
+chapter5.ptp
+chapter6.ptp
+chapter7.ptp
+chapter8.ptp
+chapter9.ptp
