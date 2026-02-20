@@ -1,0 +1,9 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+Microchess/microchess.bin
+Misc/clock/clock.bin
+ROMs/kim.bin
+ROMs/kim.ptp
+TinyBasic/TinyBasic.bin
+MSBasic/kb9v2.bin
+MSBasic/kb9v2.lbl
+MSBasic/kb9v2.ptp
