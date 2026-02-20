@@ -1,0 +1,5 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+exp1.bin
+exp1.mon
+jmon.bin
+jmon.mon
