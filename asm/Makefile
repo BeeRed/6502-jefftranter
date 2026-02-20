@@ -1,3 +1,9 @@
+BINDIR	?= $(PWD)/../bin
+PATH 	:= $(PATH):$(BINDIR)
+
+SUBDIRSx = \
+    AIM-65 \
+
 SUBDIRS = \
     2ksa \
     6522via \
@@ -20,14 +26,23 @@ SUBDIRS = \
     wozaci \
     wozfp \
     wozmon \
-    ewoz
+    ewoz \
+    $(SUBDIRSx)
 
 all:
 	@for i in $(SUBDIRS); do \
+	echo ;			  \
 	echo "make all in $$i..."; \
 	(cd "$$i"; $(MAKE) $(MFLAGS) all); done
 
 clean:
 	@for i in $(SUBDIRS); do \
+	echo ;			  \
 	echo "Cleaning in $$i..."; \
 	(cd "$$i"; $(MAKE) $(MFLAGS) clean); done
+
+distclean:
+	@for i in $(SUBDIRS); do \
+	echo ;			  \
+	echo "Cleaning in $$i..."; \
+	(cd "$$i"; $(MAKE) $(MFLAGS) distclean); done
