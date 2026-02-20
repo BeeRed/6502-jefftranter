@@ -1,0 +1,9 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+*.mon
+adventure[0-9]/adventure[0-9]
+hello/hello[0-9]
+hello/kim[0-9]
+hello/kim[0-9].ptp
+hello/nqueens
+hello/sieve
+yum/yum.bin
