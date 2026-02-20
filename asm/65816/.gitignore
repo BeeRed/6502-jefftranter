@@ -1,0 +1,9 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+debug16/debug16.bin
+debug16/debug16.mon
+demos/demo1.bin
+demos/demo1.mon
+demos/demo2.bin
+demos/demo2.mon
+demos/demo3.bin
+demos/demo3.mon
