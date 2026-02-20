@@ -1,3 +1,6 @@
+BINDIR  ?= $(PWD)/../../bin
+PATH 	:= $(PATH):$(BINDIR)
+
 all: osirom.lod basicrom.lod cegmon.lod os65dv32.bin os65dv33.bin basic32.bin basic33.bin compare.bin copier32.bin copier33.bin os65d32.bin os65d33.bin exmon.bin edasm.bin loader.bin
 
 patch: errormessage.patch garbagecollection.patch
@@ -10,7 +13,7 @@ unpatch: errormessage.patch garbagecollection.patch
 	$(RM) -f msbasic/*.orig
 
 osirom.lod: osirom.bin
-	./bintolod -s F800 -l FFF0 osirom.bin >osirom.lod
+	bintolod -s F800 -l FFF0 osirom.bin >osirom.lod
 
 basicrom.lod: basicrom.bin
 	./bintolod -s A000 -l A000 basicrom.bin >basicrom.lod
