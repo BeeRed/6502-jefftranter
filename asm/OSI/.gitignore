@@ -1,0 +1,25 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+basic.bin
+basic32.bin
+basic33.bin
+basicrom.bin
+basicrom.lod
+cegmon.bin
+cegmon.lod
+compare.bin
+copier32.bin
+copier33.bin
+edasm.bin
+edasm.lod
+exmon.bin
+exmon.lod
+loader.bin
+loader.lod
+msbasic/tmp/
+os65d32.bin
+os65d33.bin
+os65dv32.bin
+os65dv33.bin
+osibasic.bin
+osirom.bin
+osirom.lod
