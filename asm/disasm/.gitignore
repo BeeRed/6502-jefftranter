@@ -1,0 +1,3 @@
+# LC_ALL=C sort -u -f -o .gitignore        .gitignore        ; cat .gitignore
+disasm.bin
+disasm.mon
