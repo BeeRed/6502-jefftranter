@@ -17,6 +17,13 @@ been tested on Linux with the gcc compiler.
 Copyright (c) 2020-2021 Jeff Tranter <tranter@pobox.com>
 
 */
+#if defined(OSI)
+string board_name = "sim6502-OSI";
+#elif  defined(SBC)
+string board_name = "sim6502-SBC";
+#else
+string board_name = "sim6502-UNKNOWN";
+#endif
 
 // Use to flag when Control-C pressed.
 bool control_c = false;
@@ -46,7 +53,7 @@ void signal_callback_handler(int signum) {
 // Display command line options usage.
 void usage()
 {
-    cout << "Usage: sim6502 [<options>]" << endl;
+    cout << "Usage: " << board_name << " [<options>]" << endl;
     cout << "Options:" << endl;
     cout << "-h                   Show command line usage" << endl;
     cout << "-v                   Show software version and copyright" << endl;
@@ -60,7 +67,7 @@ void usage()
 // Show version and license.
 void showVersion()
 {
-    cout << "Sim6502 6502 simulator version 0.1" << endl;
+    cout << board_name << " 6502 simulator version 0.1" << endl;
     cout << "Copyright (c) 2020 Jeff Tranter <tranter@pobox.com>" << endl;
     cout << "Licensed under the Apache License, Version 2.0." << endl;
 }
@@ -214,7 +221,7 @@ int main(int argc, char **argv)
         if (tokens.size() > 0) {
 
             if (tokens[0] == "?") {
-                cout << "Commands:" << endl;
+                cout << "Commands: [" << board_name << "]" << endl;
                 cout << "Breakpoint   B [-][<address>]" << endl;
                 cout << "Dump         D [<start>] [<end>]" << endl;
                 cout << "Go           G [<address>]" << endl;

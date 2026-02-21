@@ -12,7 +12,8 @@
 
 // Define one of the following two lines to define which computer to simulate
 //#define OSI
-#define SBC
+//#define SBC
+// NOTICE: definition of target board moved into Makefile seems more flexible
 
 using namespace std;
 
