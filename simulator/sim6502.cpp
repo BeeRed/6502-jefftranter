@@ -893,12 +893,13 @@ void Sim6502::dumpRegisters()
 
 void Sim6502::dumpVideo()
 {
+    cout << "vid_mem: " << m_videoStart << "-" << m_videoEnd << endl;
     cout << "+------------------------+" << endl;
 
     for (int row = 4; row < 28; row++) {
         cout << "|";
         for (int col = 5; col < 29; col++) {
-            char c = m_memory[0xd000 + (row * 32) + col];
+            char c = m_memory[m_videoStart + (row * 32) + col];
             if ((c >= 0x20) && (c <= 0x7c)) {
                 cout << c;
             } else {
